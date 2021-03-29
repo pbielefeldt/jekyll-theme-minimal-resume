@@ -17,4 +17,5 @@ github_username:  p_bielefeldt
 #google-analytics:
 #  id: ""
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['vendor', 'package.json', 'src' , 'node_modules']
+# cf https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
